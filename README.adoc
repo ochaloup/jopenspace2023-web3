@@ -1,0 +1,23 @@
+= JOpenSpace 2023 presentation: web3
+
+Presentation is at link:./slides/[slides/]
+
+
+== Reveal.js slides dev
+
+`reveal.js` is an open source HTML presentation framework
+how to install in details check https://revealjs.com/installation/
+
+Installation and usage base on
+
+[source,sh]
+----
+git clone --depth 1 https://github.com/hakimel/reveal.js -b 4.6.1 slides
+cd slides
+rm -rf .git*
+
+npm install
+npm start
+----
+
+NOTE: images created with https://excalidraw.com/
