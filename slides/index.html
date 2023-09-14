@@ -1,23 +1,61 @@
 <!doctype html>
-<html lang="en">
+<html>
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+		<title>Introduction to Solana smart contracts</title>
 
 		<link rel="stylesheet" href="dist/reset.css">
 		<link rel="stylesheet" href="dist/reveal.css">
-		<link rel="stylesheet" href="dist/theme/black.css">
+		<link rel="stylesheet" href="dist/theme/black-changed.css">
 
 		<!-- Theme used for syntax highlighted code -->
 		<link rel="stylesheet" href="plugin/highlight/monokai.css">
 	</head>
+
+	<!-- NOTES-->
+	<!-- to show border: class="r-frame" or ... -->
+	<!-- style="border-style: solid; border-color: white; border-width: 1px !important;"-->
+	<!-- black theme background color: #191919-->
+
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+				<!-- INTRODUCTION-->
+				<section data-background="images/background.png">
+					<h1>
+					Solana smart contracts
+					</h1>
+					<img src="images/solana-logo.png" style="width: 4em;" />
+				</section>
+
+				<section data-background="images/background.png">
+					<div style="display:flex;">
+						<div style="flex: 1; vertical-align: top; float: left; margin: 0px;">
+							<img src="images/helmet.jpg" alt="avatar" style="border-radius: 50%; margin: 0px;">
+						</div>
+						<div style="flex: 7; text-align: left; margin-left: 3%;">
+							<ul style="margin-top: 5%; list-style: none;">
+								<li>Ondřej Chaloupka (<a href="https://twitter.com/_chalda">@_chalda</a>)</li>
+								<li>
+									working at ChainKeepers
+									<a href="http://chainkeepers.io">
+										<img src="images/chkp.jpg" style="height: 1em; border-radius: 50%; margin: 0px;">
+									</a>
+								</li>
+								<li>formerly Java developer</li>
+								<li>interest in distributed systems</li>
+							</ul>
+						</div>
+					</div>
+				</section>
+
+				<section data-background="images/solana-end.jpg">
+					<h2 style="text-align: right; margin-top: 8em;">
+						Q & A
+					</h2>
+				</section>
 			</div>
 		</div>
 
@@ -31,9 +69,8 @@
 			// - https://revealjs.com/config/
 			Reveal.initialize({
 				hash: true,
-
 				// Learn about plugins: https://revealjs.com/plugins/
-				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+				plugins: [ RevealHighlight, RevealNotes ]
 			});
 		</script>
 	</body>
