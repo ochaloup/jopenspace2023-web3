@@ -5,6 +5,8 @@ Presentation is at link:./slides/[slides/]
 
 == Reveal.js slides dev
 
+See README at https://github.com/hakimel/reveal.js
+
 `reveal.js` is an open source HTML presentation framework
 how to install in details check https://revealjs.com/installation/
 
@@ -16,8 +18,9 @@ git clone --depth 1 https://github.com/hakimel/reveal.js -b 4.6.1 slides
 cd slides
 rm -rf .git*
 
+# in slides/ folder
 npm install
 npm start
 ----
 
-NOTE: images created with https://excalidraw.com/
+NOTE: diagrams created with https://excalidraw.com/
