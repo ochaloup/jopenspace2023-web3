@@ -24,4 +24,9 @@ npm install
 npm start
 ----
 
-NOTE: diagrams created with https://excalidraw.com/
+To check the slides got to http://localhost:8000
+
+To get https://revealjs.com/pdf-export/[PDF version] of the slides
+to to http://localhost:8000/?print-pdf and `Save as PDF`.
+
+// NOTE: diagrams created with https://excalidraw.com/
